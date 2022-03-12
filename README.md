@@ -19,7 +19,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 ### Links
 
-- Live Site URL: [Live site URL](https://qr-code-component-jet.vercel.app/)
+- Live Site URL: [Live site URL](https://order-summary-component-iota-lilac.vercel.app/)
 
 ## My process
 
