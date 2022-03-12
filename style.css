@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+:root {
+  --Pale-blue: hsl(225, 100%, 94%);
+  --very-pale-blue: hsl(225, 100%, 98%);
+  --bright-blue: hsl(245, 75%, 52%);
+  --desaturated-blue: hsl(224, 23%, 55%);
+  --dark-blue: hsl(223, 47%, 23%);
+}
+
+.main {
+  background-image: url("./images/pattern-background-desktop.svg");
+  height: 100vh;
+  width: 100vw;
+  background-color: #dfe8ff;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Card */
+
+.card {
+  background-color: white;
+  width: 400px;
+  height: 600px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.card-hero {
+  height: 30%;
+  width: 100%;
+}
+
+.card-hero img {
+  height: 100%;
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+}
+
+/* Content */
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 70%;
+}
+
+/* About */
+
+.about {
+  width: 70%;
+}
+
+.about h1 {
+  padding: 10px 0;
+  color: var(--dark-blue);
+}
+.about p {
+  padding: 10px 0;
+  color: var(--desaturated-blue);
+}
+
+/* Subscription */
+
+.subscription {
+  background-color: var(--very-pale-blue);
+  width: 80%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 15px;
+}
+.subscription img {
+  height: 50px;
+  margin-right: 10px;
+}
+.container {
+  display: flex;
+}
+/* Plan */
+.plan {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.plan h2 {
+  font-size: 1rem;
+  font-weight: 900;
+  color: var(--dark-blue);
+  margin-bottom: 5px;
+}
+.plan h3 {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--desaturated-blue);
+}
+
+/* Button */
+
+.payment-btn {
+  background-color: var(--bright-blue);
+  color: white;
+  border-radius: 15px;
+  padding: 1rem 5.2rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+a {
+  font-weight: bold;
+}
+.cancel-btn {
+  color: var(--desaturated-blue);
+}
+
+.payment-btn:hover {
+  cursor: pointer;
+  background-color: var(--dark-blue);
+}
+
+a:hover {
+  text-decoration: none;
+  color: var(--desaturated-blue);
+}
+.cancel-btn:hover {
+  color: var(--dark-blue);
+  cursor: pointer;
+}
